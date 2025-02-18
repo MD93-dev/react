@@ -1,0 +1,36 @@
+/* NavBar.module.css */
+.navbarLogo {
+    width: 50px; /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .navbar {
+    background-color: #1976d2; /* Color azul de Material UI */
+    padding: 10px 20px;
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navButton {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  /* NavBar.module.css */
+.navbar {
+    position: fixed;  /* Fija la navbar en la parte superior */
+    top: 0;          /* La deja pegada arriba */
+    left: 0;
+    width: 100%;     /* Ocupar todo el ancho */
+    z-index: 1000;   /* Asegura que esté por encima de otros elementos */
+    background-color: #1976d2; /* Color azul de Material UI */
+    padding: 10px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombras para destacar */
+  }
+  
+  
